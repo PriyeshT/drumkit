@@ -1,0 +1,29 @@
+{
+  "name": "drumkit",
+  "version": "1.0.0",
+  "description": "Javascript30 - Project 1 - Drumkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriyeshT/drumkit.git"
+  },
+  "keywords": [
+    "VanillaJS",
+    "Javascript30"
+  ],
+  "author": "Priyesh Tungare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PriyeshT/drumkit/issues"
+  },
+  "homepage": "https://github.com/PriyeshT/drumkit#readme",
+  "devDependencies": {
+    "node-sass": "^4.0.0",
+    "nodemon": "^1.11.0"
+  }
+}
