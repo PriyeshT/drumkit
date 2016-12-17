@@ -8,7 +8,7 @@ body {
 *:before, *:after {
   box-sizing: inherit; }
 
-body {
+html {
   background: url("../../images/background.jpg") no-repeat;
   background-size: cover; }
 
@@ -44,3 +44,7 @@ body {
   transform: scale(1.1);
   border-color: #ffc600;
   border-box: 0 0 10px #ffc600; }
+
+@media screen and (max-width: 768px) {
+  html {
+    padding-bottom: 100%; } }
