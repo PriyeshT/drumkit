@@ -17,6 +17,7 @@ function removeTransition(e){
 }
 
 window.addEventListener('keydown', playSound);
+window.addEventListener('click',playSound);
 
 const keys = document.querySelectorAll('.key');
 
