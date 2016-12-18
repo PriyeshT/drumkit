@@ -33,7 +33,8 @@ html {
   text-shadow: 0 0 5px black;
   float: left;
   display: inline-block;
-  transition: all 0.07s; }
+  transition: all 0.07s;
+  cursor: pointer; }
   .key .kbd {
     display: block; }
   .key .sound {
